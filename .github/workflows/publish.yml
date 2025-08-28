@@ -22,7 +22,8 @@ jobs:
     secrets: inherit
     with:
       linux-build-args: -tags='netgo timetzdata' -trimpath -a -ldflags '-s -w -linkmode external -extldflags "-static"'
-      cgo-enabled: 1
+      windows-build-args: -tags='netgo timetzdata' -trimpath -a -ldflags '-s -w -linkmode external -extldflags "-static"'
+      macos-build-args: -tags='netgo timetzdata' -trimpath -a -ldflags '-s -w'      cgo-enabled: 1
       project: hostd
       project-desc: "hostd: A host for Sia"
       version-tag: ${{ github.ref_name }}
