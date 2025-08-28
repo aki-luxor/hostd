@@ -3,6 +3,7 @@ name: Publish
 # Controls when the action will run.
 on:
   # Triggers the workflow on new SemVer tags
+  workflow_dispatch:
   push:
     branches:
       - master
