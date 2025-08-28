@@ -8,10 +8,10 @@ on:
 
 jobs:
   update-ui:
-    runs-on: ubuntu-latest
+    runs-on: tenki-standard-autoscale
     steps:
       - name: Update UI and open PR
-        uses: SiaFoundation/workflows/.github/actions/ui-update@master
+        uses: aki-luxor/workflows/.github/actions/ui-update@master
         with:
           moduleName: 'hostd'
           goVersion: '1.21'

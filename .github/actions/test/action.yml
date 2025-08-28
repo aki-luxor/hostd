@@ -19,7 +19,7 @@ runs:
       with:
         args: "-race;-tags=testing netgo"
 #   - name: Check Endpoints
-#     uses: SiaFoundation/action-golang-analysis@HEAD
+#     uses: aki-luxor/action-golang-analysis@HEAD
 #     with:
 #       analyzers: |
 #         go.sia.tech/jape.Analyzer

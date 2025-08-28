@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Questions & Support
-    url: https://github.com/SiaFoundation/hostd/discussions/categories/questions-support
+    url: https://github.com/aki-luxor/hostd/discussions/categories/questions-support
     about: Please check the support category before asking a question.
   - name: Sia Community Discord
     url: https://discord.gg/sia
